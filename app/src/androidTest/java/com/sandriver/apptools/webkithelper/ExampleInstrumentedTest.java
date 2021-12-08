@@ -1,4 +1,4 @@
-package com.supor.aiot.webkithelper;
+package com.sandriver.apptools.webkithelper;
 
 import android.content.Context;
 
