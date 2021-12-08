@@ -1,4 +1,4 @@
-package com.sandriver.apptools.webkit;
+package com.sandriver.apptools.webkit.common;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -21,6 +21,7 @@ import com.luck.picture.lib.tools.MediaUtils;
 import com.luck.picture.lib.widget.longimage.ImageSource;
 import com.luck.picture.lib.widget.longimage.ImageViewState;
 import com.luck.picture.lib.widget.longimage.SubsamplingScaleImageView;
+import com.sandriver.apptools.webkit.R;
 
 
 public class GlideEngine implements ImageEngine {

@@ -1,4 +1,4 @@
-package com.sandriver.apptools.webkit;
+package com.sandriver.apptools.webkit.common;
 
 
 import android.content.Context;
