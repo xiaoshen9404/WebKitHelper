@@ -1,5 +1,6 @@
 # WebKitHelper
-jitpack:[![](https://jitpack.io/v/xiaoshen9404/WebKitHelper.svg)](https://jitpack.io/#xiaoshen9404/WebKitHelper)
+## jitpack Installation
+[![](https://jitpack.io/v/xiaoshen9404/WebKitHelper.svg)](https://jitpack.io/#xiaoshen9404/WebKitHelper)
 
 or
 ## Maven Installation
