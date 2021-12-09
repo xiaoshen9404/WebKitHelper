@@ -1,5 +1,6 @@
 # WebKitHelper
 jitpack:[![](https://jitpack.io/v/xiaoshen9404/WebKitHelper.svg)](https://jitpack.io/#xiaoshen9404/WebKitHelper)
+
 or
 ## Maven Installation
 
@@ -8,5 +9,5 @@ or
         mavenCentral()
  }
  
- implementation 'io.github.shiwebsw:bannerx:1.1.1'
+ implementation 'io.github.xiaoshen9404:WebKitHelper:1.0.5'
 ```
