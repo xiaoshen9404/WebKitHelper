@@ -6,6 +6,9 @@ import android.os.Bundle;
 
 import com.sandriver.apptools.webkit.WebKitHelper;
 
+/**
+ * @author zook
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

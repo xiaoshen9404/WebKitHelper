@@ -58,6 +58,9 @@ public class WebKitHelper {
                 webView = new LollipopFixedWebView(container.getContext());
                 webView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
                 WebSettings webSetting = webView.getSettings();
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    webSetting.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+                }
                 webSetting.setSavePassword(false);
                 webSetting.setSaveFormData(false);
                 webSetting.setJavaScriptEnabled(true);
@@ -75,6 +78,11 @@ public class WebKitHelper {
                 webSetting.setSupportMultipleWindows(true);
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                     webSetting.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+                }
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                    webSetting.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.TEXT_AUTOSIZING);
+                } else {
+                    webSetting.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NORMAL);
                 }
                 String cachePath = container.getContext().getFilesDir().getAbsolutePath() + "appcache";
                 Log.d("GameInfoBean_debug", cachePath);
